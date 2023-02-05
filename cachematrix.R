@@ -1,6 +1,3 @@
-## Put comments here that give an overall description of what your
-## functions do
-
 ## This function takes a matrix as input and 1) sets the value of the matrix, 
 ## 2) gets the value of the matrix, 3) sets the value of the inverse of the 
 ## matrix, and 4) gets the value of the inverse.
@@ -38,6 +35,7 @@ cacheSolve <- function(x, ...) {
     inv
 }
 
+# Test functions
 ### test <- matrix (c(5, 9, 6, 3, 7, 8, 21, 55, 6 ), 3, 3)
 ### out <- makeCacheMatrix(test)
 ### test_inv <- cacheSolve(out)
