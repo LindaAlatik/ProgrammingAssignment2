@@ -36,10 +36,16 @@ cacheSolve <- function(x, ...) {
 }
 
 # Test functions
-### test <- matrix (c(5, 9, 6, 3, 7, 8, 21, 55, 6 ), 3, 3)
-### out <- makeCacheMatrix(test)
-### test_inv <- cacheSolve(out)
-# > test_inv
+# test <- matrix (c(5, 9, 6, 3, 7, 8, 21, 55, 6 ), 3, 3)
+# out <- makeCacheMatrix(test)
+# test_inv <- cacheSolve(out)
+# test_inv
+# [,1]        [,2]        [,3]
+# [1,]  0.74812030 -0.28195489 -0.03383459
+# [2,] -0.51879699  0.18045113  0.16165414
+# [3,] -0.05639098  0.04135338 -0.01503759
+# cacheSolve(out)
+# getting cached inverse
 # [,1]        [,2]        [,3]
 # [1,]  0.74812030 -0.28195489 -0.03383459
 # [2,] -0.51879699  0.18045113  0.16165414
